@@ -67,8 +67,7 @@ public class AppTest
     		}
     		Date otherDate =rcai.getEffectiveDate();
     		
-    		//System.out.println(assertEquals(mydate,otherDate));   
-    ///assertNot(mydate,otherDate );
+    		System.out.println(otherDate.equals(mydate));
     	}
     	catch(Exception ex)
     	{
