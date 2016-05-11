@@ -1,0 +1,60 @@
+package ATPeople.COS730;
+import defaultImpl.*;
+//aTPeopleCOS730
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AppTest( String testName )
+    {
+        super( testName );
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite()
+    {
+        return new TestSuite( AppTest.class );
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+        assertTrue( true );
+    }
+    
+    public void testEquals()
+    {
+    	PersonImplementation pi;// = new PersonImplementation("Nkosikhona","Dlamini","dlamininkd@gmail.com",true);
+    	
+    	try{
+    		pi = new PersonImplementation("Nkosikhona","Dlamini","dlamininkd@gmail.com",true);
+    		if(pi.isAdmin())
+    		{
+    			System.out.println("This guy is admin");
+    			System.out.println("Test succeded");
+    		}
+    	}
+    	catch(Exception ex)
+    	{
+    		System.out.println("Exception thrown " +ex.getMessage());
+    	}
+    
+    }
+  
+    
+}

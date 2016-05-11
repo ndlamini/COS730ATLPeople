@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ATPeople.COS730&apos; to &apos;ATPeopleCOS730&apos;&#x0A;- Original project: &apos;ATLPeople&apos;&#x0A;- Original element: &apos;ATLPeople/src/test/java/ATPeople.COS730&apos;&#x0A;- Renamed element: &apos;ATLPeople/src/test/java/ATPeopleCOS730&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ATPeople.COS730&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java&lt;ATPeople.COS730" name="ATPeopleCOS730" qualified="false" references="true" stamp="1462806411567" textual="false" version="1.0"/>
+</session>

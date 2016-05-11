@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ATPeople.COS730.Group"/>
+<fullyQualifiedTypeName name="ATPeople.COS730.ResearcherCategoryAssociation"/>
+<fullyQualifiedTypeName name="ATPeople.COS730.ResearchCategoryState"/>
+<fullyQualifiedTypeName name="ATPeople.COS730.ResearchGroupAssociation"/>
+<fullyQualifiedTypeName name="ATPeople.COS730.ResearchGroupAssociationType"/>
+<fullyQualifiedTypeName name="ATPeople.COS730.InvalidEmailException"/>
+<fullyQualifiedTypeName name="ATPeople.COS730.Person"/>
+<fullyQualifiedTypeName name="ATPeople.COS730.ResearcherCategory"/>
+<fullyQualifiedTypeName name="ATPeople.COS730.DateInvalidException"/>
+<fullyQualifiedTypeName name="ATPeople.COS730.Entity"/>
+<fullyQualifiedTypeName name="aTPeopleCOS730.InvalidEmailException"/>
+<fullyQualifiedTypeName name="aTPeopleCOS730.Person"/>
+<fullyQualifiedTypeName name="aTPeopleCOS730.ResearchGroupAssociation"/>
+<fullyQualifiedTypeName name="aTPeopleCOS730.DateInvalidException"/>
+<fullyQualifiedTypeName name="aTPeopleCOS730.Group"/>
+<fullyQualifiedTypeName name="aTPeopleCOS730.ResearchGroupAssociationType"/>
+<fullyQualifiedTypeName name="defaultImpl.PersonImplementation"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="aTPeopleCOS730.ResearcherCategory"/>
+<fullyQualifiedTypeName name="aTPeopleCOS730.ResearchCategoryState"/>
+</qualifiedTypeNameHistroy>
