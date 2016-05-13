@@ -1,0 +1,84 @@
+package ATPeopleCOS730;
+import static org.junit.Assert.*;
+
+//package ATPeopleCOS730;
+import java.util.Date;
+
+import aTPeopleCOS730.Group;
+import aTPeopleCOS730.InvalidEmailException;
+import aTPeopleCOS730.Person;
+import aTPeopleCOS730.ResearchCategoryState;
+import aTPeopleCOS730.ResearchGroupAssociationType;
+import defaultImpl.*;
+//aTPeopleCOS730
+//import junit.framework.Test;
+//import junit.framework.TestCase;
+//import junit.framework.TestSuite;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+ 
+public class PersonImplementationTest 
+{
+	private Person admin,notAdmin,p_noValidEmail,researcher1,student,researcher2;
+	private Group group1, group2;
+	private ResearchGroupAssociationType researhgrpAssiaType;
+	
+	
+	@Before
+	public void creatingAPerson() throws InvalidEmailException
+	{
+		admin = new PersonImplementation("Nkosikhona","Dlamini","dlamini@yahoo.com",true);
+		notAdmin = new PersonImplementation("Tich","Mutopo","tmutop@gmail.com",false);
+		researcher1 =new PersonImplementation("Lind","Maake","lind@gmail.com",false);
+		researcher2 =new PersonImplementation("Vreda","P","pvreda@gmail.com",false);
+		group1= new GroupImplementation("ICSA");
+		group2= new GroupImplementation("CRIG");
+		
+		
+		
+		
+	}
+	@Test
+	public void testPersonMethods()
+	{
+		assertNotNull("Person class instatianed was null",admin);
+		
+		assertTrue("This person object is not Admin",admin.isAdmin());
+		assertFalse("Staff is not Admin",notAdmin.isAdmin());
+		//assertTrue("",,);
+	}
+	@Test
+	public void testEmailExpetion()
+	{
+		try
+		{
+			p_noValidEmail= new PersonImplementation("Abubakar","Ossidigg","ab@..,gmail.com",false);
+			fail("Invalid email exption not thrown");
+		}
+		catch(InvalidEmailException e)
+		{
+			assert(e.getMessage().equals(p_noValidEmail.getPrimaryEmail()+" is not a valid email address."));
+		}
+	}
+	@Test
+	public void testUnAuthorizedUserException()
+	{
+		try 
+		{
+			notAdmin.addMemberToGroup(researcher1, group1, researhgrpAssiaType.STUDENT);
+			//fail("UnuthorizedUserException not thrown.");
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+			
+		}
+		
+	}
+	
+	
+	
+	
+}

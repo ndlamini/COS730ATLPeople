@@ -1,0 +1,40 @@
+package ATPeopleCOS730;
+import static org.junit.Assert.*;
+
+//package ATPeopleCOS730;
+import java.util.Date;
+
+import aTPeopleCOS730.InvalidEmailException;
+import aTPeopleCOS730.Person;
+import aTPeopleCOS730.ResearchCategoryState;
+import defaultImpl.*;
+//aTPeopleCOS730
+//import junit.framework.Test;
+//import junit.framework.TestCase;
+//import junit.framework.TestSuite;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+ 
+public class PersonImplementationTest 
+{
+	private Person admin,notAdmin,p_noValidEmail;
+	
+	@Before
+	public void creatingAPerson() throws InvalidEmailException
+	{
+		admin = new PersonImplementation("Nkosikhona","Dlamini","dlamini@yahoo.com",true);
+		notAdmin = new PersonImplementation("Tich","Mutopo","tmutop@gmail.com",false);
+		p_noValidEmail= new PersonImplementation("Abubakar","Ossidigg","ab@..,gmail.com",false);
+		
+	}
+	@Test
+	public void testPersonMethods()
+	{
+		assertTrue("This person object is not Admin",admin.isAdmin());
+		assertTrue("Staff is not Admin",notAdmin.isAdmin());
+	}
+	
+
+}

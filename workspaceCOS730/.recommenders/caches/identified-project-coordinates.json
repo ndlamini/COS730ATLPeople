@@ -1,1 +1,1 @@
-[[{"location":"/usr/lib/jvm/jdk1.8.0","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"J2SE-1.5"}},"jre:jre:1.5.0"]]
+[[{"location":"/usr/lib/jvm/jdk1.8.0","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"J2SE-1.5"}},"jre:jre:1.5.0"],[{"location":"/home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople","type":"PROJECT","hints":{"PROJECT_NAME":"ATLPeople"}},"ATLPeople:1:0.0.1"]]

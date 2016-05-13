@@ -1,0 +1,17 @@
+package ATPeopleCOS730;
+//package ATPeopleCOS730;
+import java.util.Date;
+
+import aTPeopleCOS730.ResearchCategoryState;
+import defaultImpl.*;
+//aTPeopleCOS730
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+ 
+public class PersonImplementationTest {
+	
+	
+	
+
+}
