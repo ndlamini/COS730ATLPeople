@@ -1,0 +1,35 @@
+package ATPeopleCOS730;
+
+
+
+
+import aTPeopleCOS730.Group;
+import aTPeopleCOS730.InvalidEmailException;
+import aTPeopleCOS730.Person;
+import aTPeopleCOS730.ResearchCategoryState;
+import aTPeopleCOS730.ResearchGroupAssociationType;
+import aTPeopleCOS730.ResearcherCategory;
+import defaultImpl.*;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+
+import java.util.Date;
+
+//aTPeopleCOS730
+//import junit.framework.Test;
+//import junit.framework.TestCase;
+//import junit.framework.TestSuite;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class ResearchCategoryStateImplementationTest
+{
+	
+}

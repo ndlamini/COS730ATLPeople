@@ -1,0 +1,134 @@
+package ATPeopleCOS730;
+import aTPeopleCOS730.Group;
+import aTPeopleCOS730.InvalidEmailException;
+import aTPeopleCOS730.Person;
+import aTPeopleCOS730.ResearchCategoryState;
+import aTPeopleCOS730.ResearchGroupAssociationType;
+import aTPeopleCOS730.ResearcherCategory;
+import defaultImpl.*;
+
+import static org.junit.Assert.*;
+
+import java.util.Date;
+
+//aTPeopleCOS730
+//import junit.framework.Test;
+//import junit.framework.TestCase;
+//import junit.framework.TestSuite;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class ResearcherCategoryAssociationImplementationTest 
+
+{
+	//need a researcherCatergory
+	
+	//researcherCatergory needs researchSatecatergory
+	private ResearcherCategoryAssociationImplementation rcai1,rcai2;
+	private ResearcherCategoryImplementation researchCatergory1,researchCatergory2;
+	private ResearchCategoryState researchCategoryState,researchCategoryState1;
+	
+	
+	private  ResearchGroupAssociationImplementation regroupAsso1,regroupAsso2;
+	private PersonImplementation admin,notAdmin,p_noValidEmail,researcher1,student,researcher2,leaderGroup1,leaderGroup2;
+	private GroupImplementation group1, group2 ,group3;
+	private ResearchGroupAssociationType researhgrpAssiaType;
+	
+	
+	Date myDate =new Date();
+	
+	@Before
+	public void createResearcherAssociationImplementation() throws Exception
+	{
+		
+		researchCategoryState1 = new ResearchCategoryStateImplementation(myDate,0.4f);
+		researchCategoryState = new ResearchCategoryStateImplementation(myDate,0.9f);
+		
+		//regroupAsso1 = new ResearchGroupAssociationImplementation(researhgrpAssiaType.STUDENT,);
+		//regroupAsso2 = new ResearchGroupAssociationImplementation();
+		
+		researchCatergory1 = new ResearcherCategoryImplementation(researchCategoryState);
+		researchCatergory2 =new ResearcherCategoryImplementation(researchCategoryState1);
+		
+		
+		rcai1 = new ResearcherCategoryAssociationImplementation(researchCatergory1);
+		rcai2 =new ResearcherCategoryAssociationImplementation(researchCatergory2);
+		
+	
+		
+		
+		
+		
+		admin = new PersonImplementation("Nkosikhona","Dlamini","dlamini@yahoo.com",true);
+		notAdmin = new PersonImplementation("Tich","Mutopo","tmutop@gmail.com",false);
+		researcher1 =new PersonImplementation("Lindiwe","Maake","lind@gmail.com",false);
+		researcher2 =new PersonImplementation("Vreda","P","pvreda@gmail.com",false);
+		student = new PersonImplementation("Mothusi","Masibi","mm@gmail.com",false);
+		
+		leaderGroup1 = new PersonImplementation("leaderGroup1Name","Group1LeaderSurname","group1leader@gmail.com",false);
+		leaderGroup2 = new PersonImplementation("leaderGroup2Name","Group2LeaderSurname","group2leader@gmail.com",false);
+		
+		group1= new GroupImplementation("ICSA");
+		group2= new GroupImplementation("CRIG");
+		group3 = new GroupImplementation("SAEG");
+		admin.addMemberToGroup(notAdmin, group1,researhgrpAssiaType.MEMBER);
+		admin.addAuxiliaryEmails("adminauxiliaryemal@gmil.com");
+		admin.addCategory(researchCatergory2);
+		
+		admin.addMemberToGroup(student, group1,researhgrpAssiaType.STUDENT);
+		admin.addMemberToGroup(researcher1, group1,researhgrpAssiaType.MEMBER);
+		admin.addMemberToGroup(researcher1, group1,researhgrpAssiaType.MEMBER);
+		admin.addMemberToGroup(leaderGroup1, group1,researhgrpAssiaType.GROUPLEADER);
+		
+		admin.addMemberToGroup(researcher2, group2,researhgrpAssiaType.MEMBER);
+		admin.addMemberToGroup(leaderGroup2, group2,researhgrpAssiaType.GROUPLEADER);
+		admin.removeMemberFromGroup(student,group1);
+		
+		group1.addMember(student);
+		group1.addMember(leaderGroup1);
+		group1.addMember(researcher1);
+
+		
+		group3.addMember(admin);
+		group3.addMember(notAdmin);
+		group2.addMember(researcher2);
+		group2.addMember(notAdmin);
+		group2.addMember(leaderGroup2);
+		
+		group1.activateGroup();
+		group2.activateGroup();
+		
+		group2.removeMember(notAdmin);
+		group1.memberQuits(researcher1);
+		group3.suspendGroup();
+		
+		
+		
+	}
+	@Test
+	public void testResearcherAssociationImplementationMethods()
+	{
+		assertNotNull("Error : ResearchCategory association cannot be instatiated",rcai1);
+		assertNotSame("Error : Different research catergories assumed to be the same",rcai1,rcai2);
+		assertSame("Error    : The returned research catergory is expected to be the same ",researchCatergory1,rcai1.getCategory());
+		assertNotNull("Error : The effective date returned by getEffectiveDate method is not susspoed to be null",rcai2.getEffectiveDate());	
+	}
+	@Test
+	public void testSuspendedException()
+	{
+		try
+		{
+			group3.memberQuits(notAdmin);
+			fail("Member cannot quit from a suspended group, an exception must be thrown");
+		}
+		catch(Exception e)
+		{
+			
+		}
+		
+	}
+	
+	
+	
+}

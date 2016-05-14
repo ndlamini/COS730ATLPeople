@@ -1,0 +1,50 @@
+package ATPeopleCOS730;
+
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertSame;
+
+import java.util.Date;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import aTPeopleCOS730.ResearchCategoryState;
+import defaultImpl.ResearchCategoryStateImplementation;
+import defaultImpl.ResearcherCategoryAssociationImplementation;
+import defaultImpl.ResearcherCategoryImplementation;
+
+public class ResearcherCategoryImplementationTest {
+	
+	
+	//researcherCatergory needs researchSatecatergory
+	private ResearcherCategoryAssociationImplementation rcai1,rcai2;
+	private ResearcherCategoryImplementation researchCatergory1,researchCatergory2;
+	private ResearchCategoryState researchCategoryState,researchCategoryState1;
+	
+	Date myDate =new Date();
+	
+	@Before
+	public void createResearcherCatergoryImplementation() throws Exception
+	{
+		
+		researchCategoryState1 = new ResearchCategoryStateImplementation(myDate,0.4f);
+		researchCategoryState = new ResearchCategoryStateImplementation(myDate,0.9f);
+		
+		//regroupAsso1 = new ResearchGroupAssociationImplementation(researhgrpAssiaType.STUDENT,);
+		//regroupAsso2 = new ResearchGroupAssociationImplementation();
+		
+		researchCatergory1 = new ResearcherCategoryImplementation(researchCategoryState);
+		researchCatergory2 =new ResearcherCategoryImplementation(researchCategoryState1);	
+	}
+	@Test
+	public void testResearcherAssociationImplementationMethods()
+	{
+		assertNotNull("Error : ResearchCategory association cannot be instatiated",rcai1);
+		assertNotSame("Error : Different research catergories assumed to be the same",rcai1,rcai2);
+		assertSame("Error    : The returned research catergory is expected to be the same ",researchCatergory1,rcai1.getCategory());
+		assertNotNull("Error : The effective date returned by getEffectiveDate method is not susspoed to be null",rcai2.getEffectiveDate());	
+	}
+	
+
+}
