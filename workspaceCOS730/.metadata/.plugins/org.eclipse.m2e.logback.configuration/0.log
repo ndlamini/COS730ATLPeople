@@ -1011,3 +1011,67 @@
 2016-05-14 19:13:08,478 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
 2016-05-14 19:13:08,480 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-05-14 19:13:08,480 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 19:59:52,959 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 19:59:52,959 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 19:59:52,960 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 19:59:52,960 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:06:26,509 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:06:26,509 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:06:26,511 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:06:26,511 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:14:37,301 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:14:37,301 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:14:37,302 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:14:37,302 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:15:25,414 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:15:25,414 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:15:25,415 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:15:25,415 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:15:53,417 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:15:53,417 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:15:53,421 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:15:53,421 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:19:41,338 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:19:41,339 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:19:41,339 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:19:41,339 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:26:31,898 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:26:31,899 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:26:31,899 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:26:31,900 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:29:39,080 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:29:39,080 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:29:39,082 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:29:39,083 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:31:43,836 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:31:43,836 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:31:43,837 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:31:43,837 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:32:30,679 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:32:30,679 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:32:30,679 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:32:30,679 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:38:09,086 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:38:09,086 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:38:09,087 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:38:09,087 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:38:31,434 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:38:31,434 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:38:31,435 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:38:31,435 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:44:07,642 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:44:07,643 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:44:07,643 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:44:07,643 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:49:47,977 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:49:47,977 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:49:47,978 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:49:47,978 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:49:56,288 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:49:56,289 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:49:56,289 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:49:56,289 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-14 20:50:16,328 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:50:16,328 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
+2016-05-14 20:50:16,330 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-14 20:50:16,330 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources

@@ -1,0 +1,59 @@
+package ATPeopleCOS730;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+
+import java.util.Date;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+import aTPeopleCOS730.ResearchGroupAssociationType;
+import defaultImpl.GroupImplementation;
+import defaultImpl.ResearchGroupAssociationImplementation;
+
+
+public class ResearchGroupAssociationImplementationTest 
+{
+	
+	private ResearchGroupAssociationImplementation rgai1,rgai2;
+	private GroupImplementation group1, group2;
+	private ResearchGroupAssociationType researhgrpAssiaType;
+
+	Date myDate =new Date();
+	
+	@Before
+	public void createResearchGroupAssociationImplementationTest() throws Exception
+	{
+		
+
+		
+		//regroupAsso1 = new ResearchGroupAssociationImplementation(researhgrpAssiaType.STUDENT,);
+		//regroupAsso2 = new ResearchGroupAssociationImplementation();
+		group1= new GroupImplementation("ICSA");
+		group2= new GroupImplementation("CRIG");
+		
+		rgai1 = new ResearchGroupAssociationImplementation(group1,researhgrpAssiaType.ADMINISTRATOR);
+		rgai1 = new ResearchGroupAssociationImplementation(group2,researhgrpAssiaType.COLLABORATOR);
+		
+		
+	}
+	@Test
+	public void testResearchGroupAssociationMethods()
+	{
+			assertNotNull("Error : ResearchGroupAssociation failed to be instatiated",rgai1);
+			assertEquals("Error research association returned by getType() is does not correspond to the set research association type",researhgrpAssiaType.ADMINISTRATOR,rgai1.getType());
+			
+			
+			
+		
+	}
+	
+	
+
+}

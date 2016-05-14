@@ -1,0 +1,56 @@
+package ATPeopleCOS730;
+
+import static org.junit.Assert.*;
+
+import java.util.Date;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+import aTPeopleCOS730.ResearchGroupAssociationType;
+import defaultImpl.GroupImplementation;
+import defaultImpl.ResearchGroupAssociationImplementation;
+
+
+public class ResearchGroupAssociationImplementationTest 
+{
+	
+	private ResearchGroupAssociationImplementation rgai1,rgai2;
+	private GroupImplementation group1, group2;
+	private ResearchGroupAssociationType researhgrpAssiaType;
+
+	Date myDate =new Date();
+	
+	@Before
+	public void createResearchGroupAssociationImplementationTest() throws Exception
+	{
+		
+
+		
+		//regroupAsso1 = new ResearchGroupAssociationImplementation(researhgrpAssiaType.STUDENT,);
+		//regroupAsso2 = new ResearchGroupAssociationImplementation();
+		group1= new GroupImplementation("ICSA");
+		group2= new GroupImplementation("CRIG");
+		
+		rgai1 = new ResearchGroupAssociationImplementation(group1,researhgrpAssiaType.ADMINISTRATOR);
+		rgai1 = new ResearchGroupAssociationImplementation(group2,researhgrpAssiaType.COLLABORATOR);
+		
+		
+	}
+	@Test
+	public void testResearchGroupAssociationMethods()
+	{
+			assertNotNull("Error : ResearchGroupAssociation failed to be instatiated",rgai1);
+			assertEquals("Error research association returned by getType() is does not correspond to the set research association type",researhgrpAssiaType.ADMINISTRATOR,rgai1.getType());
+			assertSame("Error : group  returned by the getGroup method was supposed to be the same as the passed when creating this Research group assciation",group2,rgai2.getGroup());
+			assertNotSame("Error the groups returned here are supposed to be different, one group is ICSA and the other is CRIG ",rgai2.getGroup(),rgai1.getGroup());
+			
+			
+			
+		
+	}
+	
+	
+
+}
