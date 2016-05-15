@@ -1075,3 +1075,32 @@
 2016-05-14 20:50:16,328 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/main/resources
 2016-05-14 20:50:16,330 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-05-14 20:50:16,330 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/hltuser/COS730ATLPeople/workspaceCOS730/ATLPeople/src/test/resources
+2016-05-15 14:47:22,529 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ATLPeople:1:0.0.1-SNAPSHOT @ C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\pom.xml.
+2016-05-15 14:47:24,446 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.pom
+2016-05-15 14:47:24,730 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.pom
+2016-05-15 14:47:25,708 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.jar
+2016-05-15 14:47:26,825 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.4/junit-4.4.jar
+2016-05-15 14:47:30,434 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 14:47:30,434 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\main\resources
+2016-05-15 14:47:30,443 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 14:47:30,444 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\test\resources
+2016-05-15 14:47:42,674 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 14:47:42,675 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\main\resources
+2016-05-15 14:47:42,678 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 14:47:42,679 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\test\resources
+2016-05-15 15:20:06,175 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 15:20:06,178 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\main\resources
+2016-05-15 15:20:06,183 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 15:20:06,277 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\test\resources
+2016-05-15 15:21:12,375 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 15:21:12,375 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\main\resources
+2016-05-15 15:21:12,380 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 15:21:12,435 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\test\resources
+2016-05-15 15:22:06,277 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 15:22:06,334 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\main\resources
+2016-05-15 15:22:06,358 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 15:22:06,375 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\test\resources
+2016-05-15 15:24:06,528 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 15:24:06,529 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\main\resources
+2016-05-15 15:24:06,532 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-15 15:24:06,619 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tich\Documents\GitHub\COS730ATLPeople\workspaceCOS730\ATLPeople\src\test\resources
