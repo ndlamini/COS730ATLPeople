@@ -64,18 +64,7 @@ public class GroupImplementationTest
 		group1= new GroupImplementation("ICSA");
 		group2= new GroupImplementation("CRIG");
 		group3 = new GroupImplementation("SAEG");
-		admin.addMemberToGroup(notAdmin, group1,researhgrpAssiaType.MEMBER);
-		admin.addAuxiliaryEmails("adminauxiliaryemal@gmil.com");
-		admin.addCategory(researchCatergory2);
-		
-		admin.addMemberToGroup(student, group1,researhgrpAssiaType.STUDENT);
-		admin.addMemberToGroup(researcher1, group1,researhgrpAssiaType.MEMBER);
-		admin.addMemberToGroup(researcher1, group1,researhgrpAssiaType.MEMBER);
-		admin.addMemberToGroup(leaderGroup1, group1,researhgrpAssiaType.GROUPLEADER);
-		
-		admin.addMemberToGroup(researcher2, group2,researhgrpAssiaType.MEMBER);
-		admin.addMemberToGroup(leaderGroup2, group2,researhgrpAssiaType.GROUPLEADER);
-		admin.removeMemberFromGroup(student,group1);
+	
 		
 		group1.addMember(student);
 		group1.addMember(leaderGroup1);

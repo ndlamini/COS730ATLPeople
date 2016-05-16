@@ -77,7 +77,7 @@ public class PersonImplementationTest
 		assertEquals("GroupLeader1 email is not correspoding to expected eamil","group1leader@gmail.com",leaderGroup1.getPrimaryEmail());
 		assertEquals("GroupLeader1 returned name is not correspoding to expected name","leaderGroup1Name",leaderGroup1.getFirstName());
 		assertTrue("This person object is not Admin",admin.isAdmin());
-		assertFalse("Staff is not Admin",notAdmin.isAdmin());
+		assertFalse("Staff is not Admin but the program returned him as admin",notAdmin.isAdmin());
 	}
 	@Test
 	public void testEmailExpetion()
@@ -86,7 +86,7 @@ public class PersonImplementationTest
 		{
 			p_noValidEmail= new PersonImplementation("Abubakar","Ossidigg","ab@..,gmail.com",false);
 			
-			fail("Invalid email exption not thrown");
+			fail("Invalid email exption not thrown ,invalid email was accepted");
 		}
 		catch(InvalidEmailException e)
 		{
