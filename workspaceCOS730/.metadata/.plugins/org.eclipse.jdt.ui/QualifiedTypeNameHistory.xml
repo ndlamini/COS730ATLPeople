@@ -13,11 +13,15 @@
 <fullyQualifiedTypeName name="aTPeopleCOS730.InvalidEmailException"/>
 <fullyQualifiedTypeName name="aTPeopleCOS730.Person"/>
 <fullyQualifiedTypeName name="aTPeopleCOS730.ResearchGroupAssociation"/>
-<fullyQualifiedTypeName name="aTPeopleCOS730.DateInvalidException"/>
 <fullyQualifiedTypeName name="aTPeopleCOS730.Group"/>
 <fullyQualifiedTypeName name="aTPeopleCOS730.ResearchGroupAssociationType"/>
 <fullyQualifiedTypeName name="defaultImpl.PersonImplementation"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="aTPeopleCOS730.ResearchCategoryState"/>
 <fullyQualifiedTypeName name="aTPeopleCOS730.ResearcherCategory"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="aTPeopleCOS730.DateInvalidException"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
 </qualifiedTypeNameHistroy>
